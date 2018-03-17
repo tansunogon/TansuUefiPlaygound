@@ -182,6 +182,7 @@
 [Components]
   UefiPlaygroundPkg/Hello/HelloWorld.inf
   UefiPlaygroundPkg/UefiPxeBcDxe/UefiPxeBcDxe.inf
+  UefiPlaygroundPkg/UefiPxeBcDxe/PxeStarter.inf
 
 [BuildOptions]
 
