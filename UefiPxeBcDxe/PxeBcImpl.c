@@ -2788,9 +2788,11 @@ EfiPxeLoadFile (
   UINT64                      TmpBufSize;
   BOOLEAN                     MediaPresent;
 
+/*
   if (FilePath == NULL || !IsDevicePathEnd (FilePath)) {
     return EFI_INVALID_PARAMETER;
   }
+*/
   
   Private         = PXEBC_PRIVATE_DATA_FROM_LOADFILE (This);
   PxeBc           = &Private->PxeBc;
