@@ -375,6 +375,7 @@ PxeBcDriverBindingStart (
   if (EFI_ERROR (Status)) {
     goto ON_ERROR;
   }
+/*
   //
   // Locate Ip4->Ip4Config2 and store it for set IPv4 Policy.
   //
@@ -386,6 +387,7 @@ PxeBcDriverBindingStart (
   if (EFI_ERROR (Status)) {
     goto ON_ERROR;
   }
+*/
 
   return EFI_SUCCESS;
 

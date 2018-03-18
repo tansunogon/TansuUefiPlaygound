@@ -689,6 +689,7 @@ PxeBcSetIp4Policy (
   IN PXEBC_PRIVATE_DATA            *Private
   )
 {
+/*
   EFI_STATUS                   Status;
   EFI_IP4_CONFIG2_PROTOCOL     *Ip4Config2;
   EFI_IP4_CONFIG2_POLICY       Policy;
@@ -718,7 +719,7 @@ PxeBcSetIp4Policy (
       return Status;
     } 
   }
-
+*/
   return  EFI_SUCCESS;
 }
 
