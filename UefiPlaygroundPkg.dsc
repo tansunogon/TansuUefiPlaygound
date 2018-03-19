@@ -183,6 +183,7 @@
   UefiPlaygroundPkg/Hello/HelloWorld.inf
   UefiPlaygroundPkg/UefiPxeBcDxe/UefiPxeBcDxe.inf
   UefiPlaygroundPkg/UefiPxeBcDxe/PxeStarter.inf
+  UefiPlaygroundPkg/GopTest/GopTest.inf
 
 [BuildOptions]
 
