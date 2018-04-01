@@ -184,6 +184,7 @@
   UefiPlaygroundPkg/UefiPxeBcDxe/UefiPxeBcDxe.inf
   UefiPlaygroundPkg/UefiPxeBcDxe/PxeStarter.inf
   UefiPlaygroundPkg/GopTest/GopTest.inf
+  UefiPlaygroundPkg/HttpTest/HttpTest.inf
 
 [BuildOptions]
 

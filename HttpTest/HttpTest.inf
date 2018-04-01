@@ -1,0 +1,28 @@
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = HttpTest
+  FILE_GUID                      = 1d7702d0-927b-43f5-959a-540a7475be54
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = UefiMain
+
+[Sources]
+  HttpTest.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+
+[LibraryClasses]
+  UefiApplicationEntryPoint
+  UefiLib
+  UefiBootServicesTableLib
+
+[FeaturePcd]
+
+[Pcd]
+
+[Protocols]
+  gEfiHttpServiceBindingProtocolGuid
+  gEfiPxeBaseCodeProtocolGuid
+  gEfiTcp4ServiceBindingProtocolGuid
+  gEfiHttpProtocolGuid
